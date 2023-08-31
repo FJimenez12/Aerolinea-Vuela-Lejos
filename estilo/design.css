@@ -1,0 +1,61 @@
+#principal{
+    border: solid 1px black;	
+    width: 80%;			
+    margin: 35px auto;			
+    padding: 25px;	
+    font-size: 15px;
+    font-weight:bolder; 
+    background-position-y: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    }
+
+legend{
+    border: solid 1px black;  /*titulos con capsula*/
+    padding: 12px;
+    font-weight: bold;	
+    border-radius:30px;	
+    background:  #1b0088;
+    color: rgb(215, 232, 248);	
+    text-align: left;	
+    
+    }
+
+h1{
+    border: solid 1px rgb(0, 0, 0); /*titulos*/
+    padding: 15px;
+    font-weight: bold;	
+    border-radius:30px;	
+    background:  #1b0088;
+    color: aliceblue;
+    text-align: center;
+    }
+
+p{
+    border: solid 1px rgb(0, 0, 0); /*parrafos*/
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    text-justify: auto;
+    font-size: 19px;
+
+    }
+
+.body{
+    background-color: rgb(114, 208, 245);   /*fondo de la pagina*/
+    background-image: url(avionfondo2.jpg);
+    background-size: 100%;
+    }   
+
+.navbar{
+    background-color:  #1b0088;    /*color del encabezado*/
+    color: aliceblue;
+    padding: 10px;
+    }
+
+.navbar-nav .nav-link{      /*color de los enlaces*/   
+    color: aliceblue;
+    padding: 7px;
+    }
+
+.navbar-brand{          /*color del nombre titulo*/
+    color: aliceblue;
+    }
